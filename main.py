@@ -20,7 +20,7 @@ col5, col6, col7, col8 = st.columns(4)
 with col5:
      st.write("Quote 2")
 with col6:
-     quote_2 = st.text_input(label="quote2", label_visibility='collapsed', placeholder='Voer thuis/thuis in', key='quote2')
+     quote_2 = st.text_input(label="quote2", label_visibility='collapsed', placeholder='Voer thuis/gelijk in', key='quote2')
 with col7:
     st.write("Bedrag 2")
 with col8:
@@ -30,7 +30,7 @@ col9, col10, col11, col12 = st.columns(4)
 with col9:
     st.write("Quote 3")
 with col10:
-    quote_3 = st.text_input(label="quote3", label_visibility='collapsed', placeholder='Voer thuis/thuis in', key='quote3')
+    quote_3 = st.text_input(label="quote3", label_visibility='collapsed', placeholder='Voer thuis/uit in', key='quote3')
 with col11:
     st.write("Bedrag 3")
 with col12:
