@@ -46,7 +46,7 @@ try:
     with col14:
         quote_1 = float(quote_1)
         input_1 = float(input_1)
-        uitkomst_1 = maths.bedrag1(quote_1, input_1)
+        uitkomst_1 = maths.bedrag(quote_1, input_1)
         st.info(uitkomst_1)
     with col15:
         st.write("Je hebt over:")
@@ -61,7 +61,7 @@ try:
     with col18:
         quote_2 = float(quote_2)
         input_2 = float(input_2)
-        uitkomst_2 = maths.bedrag2(quote_2, input_2)
+        uitkomst_2 = maths.bedrag(quote_2, input_2)
         st.info(uitkomst_2)
     with col19:
         st.write("Je hebt over:")
@@ -75,7 +75,7 @@ try:
     with col22:
         quote_3 = float(quote_3)
         input_3 = float(input_3)
-        uitkomst_3 = maths.bedrag3(quote_3, input_3)
+        uitkomst_3 = maths.bedrag(quote_3, input_3)
         st.info(uitkomst_3)
     with col23:
         st.write("Je hebt over:")
